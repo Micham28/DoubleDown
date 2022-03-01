@@ -1,8 +1,10 @@
 
 body {
-  font-size: 20px;
+  font-size: 17px;
   text-align: center;
   align-items: center;
+  font-family: Arial, Helvetic, sans-serif;
+  background: linear-gradient(to bottom, #ffffff 0%, #ccffcc 93%);
 
 }
 
@@ -13,7 +15,6 @@ body {
 .works {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: whitesmoke;
 }
 
 .steps {
@@ -35,17 +36,54 @@ body {
 }
 
 .donate-text {
-	text-align: left;
-  line-height: 50px;
+  display: flex;
+	text-align: justify;
+  background-color: ;
+  line-height: 100px;
 } 
 
 figcaption {
   font-size: 12px;
 }
 
+.donation:hover .donation-text {
+  display: block;
+}
+
+.donation:hover .donationbtn {
+  background-color: whitesmoke;
+}
+
+.donationbtn {
+  font-size: 20px;
+}
+
+.donation {
+  position: center;
+  display: inline-block;
+
+}
+.donation-text {
+  display: none;
+  position: absolute;
+  padding-right: 90px;
+  background-color: whitesmoke;
+  line-height: 30px;
+}
+
+label {
+  padding-right: 20px;
+}
+
+select.name {
+  background: #04AA6D;
+  color: black;
+  padding 0 10p;
+  font-size: 17px;
+}
+
 .table {
   margin: 2% 0% 3% 0%;
-
 }
 
 .team {
@@ -55,12 +93,6 @@ figcaption {
 .team-text {
   font-size: 20px;
   word-spacing: 140px;
-
-}
-
-.donatebtn {
-  padding: 2% 0% 2% 0%;
-  background-color: whitesmoke;
 }
 
 .button {
@@ -69,7 +101,6 @@ figcaption {
   background-color: #04AA6D;
   border-radius: 12px;
   color: white;
-
 }
 
 .dropbtn {
@@ -99,13 +130,14 @@ figcaption {
 
 .dropdown:hover .dropdown-content 
 {
-	display: block;
+  display: block;
 }
 
 .dropdown:hover .dropbtn 
 {
-	background-color: #3e8e41;
+  background-color: #3e8e41;
 }
+
 
 .fa-instagram {
   background: #125688;
