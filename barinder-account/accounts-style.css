@@ -174,8 +174,9 @@ input[type=userpay]:focus, input[type="userpay"]:focus{
   text-align: center;
   align-content: center;
   padding: 16px;
-  width: 50%;
+  width: 45%;
   float: left;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+  padding-right: 10px;
 }
