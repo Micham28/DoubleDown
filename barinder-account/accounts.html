@@ -41,7 +41,7 @@
 		</p>
 </article>
 
-	<aside class="Login">
+	<div class="Login">
 		<h1>Login</h1>
 		<label for="uname"><b>Username</b></label>
     	<input type="text" placeholder="Enter Username" name="uname" required>
@@ -50,10 +50,10 @@
     	<input type="password" placeholder="Enter Password" name="psw" required>
 
     	<button type="submit">Login</button>
-    	<label>
-	</aside>
+    	
+	</div>
 
-	<aside class="Signup">
+	<div class="Signup">
 		<h1>Sign Up</h1>
     	<p>Please fill in this the following to create an account.</p>
     	<hr>
@@ -72,12 +72,25 @@
     	</label>
 
     	<label>
-      	<input type="checkbox" checked="checked" name="SportsTeam" style="margin-bottom:15px"> Sports Team
+      	<input type="checkbox" checked="checked" name="SportsTeam" style="margin-bottom:15px"> Sports Team<br>
+    	</label>
+   
+    	<label for="Teamreg"><b>Team Name</b></label>
+    	<input type="Team" placeholder="Enter Team" name="Team-Entry" required>
+
+    	<label>
+      	<input type="checkbox" checked="checked" name="paypal" style="margin-bottom:15px"> PayPal
     	</label>
 
-    	<button type="submit" class="signupbtn">Sign Up</button>
+    	<label>
+      	<input type="checkbox" checked="checked" name="cashapp" style="margin-bottom:15px"> Cash App<br>
+    	</label>
 
-	</aside>
+    	<label for="servname"><b>User Name on Payment Serivce</b></label>
+    	<input type="userpay" placeholder="User Name" name="pay-user" required>
+
+    	<button type="submit" class="signupbtn">Sign Up</button>
+	</div>
 
 	<div class="Counter">
 		

@@ -119,16 +119,49 @@ button:hover {
 
 .signupbtn {
   float: left;
-  width: 50%;
-}
-
-.signupbtn {
   width: 100%;
 }
+
 .Signup {
+  text-align: center;
+  align-content: center;
   padding: 16px;
   width: 25%;
   float: right;
 }
 
+input[type=text], input[type="Team"]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=text]:focus, input[type="Team"]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+input[type=checkbox]{
+  padding-top: 10px;
+}
+label[for="Teamreg"]{
+  padding-top: 16px;
+}
+
+input[type=userpay], input[type="userpay"]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=userpay]:focus, input[type="userpay"]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
 * {box-sizing: border-box}
+
