@@ -4,7 +4,7 @@ body {
   text-align: center;
   align-items: center;
   font-family: Arial, Helvetic, sans-serif;
-  background: linear-gradient(to bottom, #ffffff 0%, #ccffcc 93%);
+  background: linear-gradient(to bottom, #0099cc 0%, #66ffff 100%);
 
 }
 
@@ -39,7 +39,7 @@ body {
   display: flex;
 	text-align: justify;
   background-color: ;
-  line-height: 100px;
+  line-height: 50px;
 } 
 
 figcaption {
@@ -66,13 +66,10 @@ figcaption {
 .donation-text {
   display: none;
   position: absolute;
-  padding-right: 90px;
-  background-color: whitesmoke;
+  padding: 15px;
   line-height: 30px;
-}
-
-label {
-  padding-right: 20px;
+  margin-top: -10px;
+  background-color: whitesmoke;
 }
 
 select.name {

@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Accounts</title>
 	<link rel="stylesheet" type="text/css" href="accounts-style.css">
+	<script src="counterjava.js" type="text/javascript"></script>
 </head>
 <body>
 	<header class="titlehead">
@@ -16,33 +17,34 @@
 	</h2>
 	<div class="navbar">
 		<a href="#HOME">HOME</a>
-		<a href="#ABOUT">ABOUT</a>
-		<a href="#DONATIONS">Donations</a>
-		<a class="active" href="C:/Users/gotJe/OneDrive/Documents/website%20barinder%20example/barinder-account/accounts.html">My Account</a>
+		<a href="C:/Users/gotJe/OneDrive/Documents/DoubleDown/Barinder-About/Barinder-About/Fundraiser.html">ABOUT</a>
+		<a class="active" href="C:/Users/gotJe/OneDrive/Documents/DoubleDown/barinder-account/accounts.html">My Account</a>
 		<a href="#STORIES">Success Stories</a>
 	</div>
 	</header>
 <div class="ALL">
 <article class="Maincont">
 	<div class="Description">
-		<p>Begin your teams' path to success today, by registering an account.<br>
-			Things yopu will need to provide:<br>
+		<p><b>Begin your teams' path to success today, by registering an account.<br>
+			Things yopu will need to provide:</b><br>
 			<ul>
 			<li>Paypal or Cash App account or shareable link.</li><br>
 			<li>Location of the team, including school.</li><br>
 			<li>Set a level for donations <br>(Ex:$5 for one team member meal, $25 for the equipement rental for the week.)</li><br><br>
-			</ul>
+			</ul><b>
 			If you are looking to donate register as a Community Donator.<br>
-			Things you will need:<br>
+			Things you will need:</b><br>
 			<ul>
 			<li>Cash App or Paypal depending on the Team you chose.</li><br><br>
 			</ul>
-			Already a member login to donate or update infomation.<br>
+			<b>Already a member login to donate or update infomation.<br>
 		</p>
 </article>
 
 	<div class="Login">
 		<h1>Login</h1>
+		<p>Existing user? Login to change your pay service or to use your saved service.</p>
+    	<hr>
 		<label for="uname"><b>Username</b></label>
     	<input type="text" placeholder="Enter Username" name="uname" required>
 
@@ -89,12 +91,13 @@
     	<label for="servname"><b>User Name on Payment Serivce</b></label>
     	<input type="userpay" placeholder="User Name" name="pay-user" required>
 
-    	<button type="submit" class="signupbtn">Sign Up</button>
+    	<button type="submit" class="signupbtn" onClick="onClick()">Sign Up</button>
 	</div>
 
 	<div class="Counter">
 		
 		<label for="countertitle"><b>How Many Members Strong</b></label>
+		<p>Registerd Users: <a id="clicks">0</a></p>
 
 	</div>
 
