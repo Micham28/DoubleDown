@@ -6,10 +6,11 @@ html{
   border-style: solid;
 }
 *, *:before, *:after {
-  }
+  box-sizing: inherit;}
 body {
   background: linear-gradient(to bottom, #0099cc 0%, #66ffff 100%);
   font-family: Arial, Helvetic, sans-serif;
+
 }
 
 .titlehead{
@@ -194,56 +195,3 @@ input[type=TeamLoc]:focus, input[type="TeamLoc"]:focus{
   outline: none;
 }
 
-.foldForm {
-  border: 1px solid black;
-  padding: 3px;
-
-  position: relative;
-  display: box;
-  display: flex;
-  display: flexbox;
-  display: flex;
-
-  box-orient: vertical;
-  box-direction: normal;
-  flex-direction: column;
-  flex-direction: column;
-  flex-direction: column;
-
-  width: 100%;
-  padding: 16px 48px 16px 16px;
-  font-size: 18px;
-  font-weight: 400;
-  border-bottom: 1px solid #e5e5e5;
-
-}
-
-.foldForm a:hover,
-.foldForm a:hover::after{
-  cursor: pointer;
-  color: #ff5353;
-  border: 1px solid #ff5353;
-}
-
-.foldForm a.active {
-  color: #ff5353;
-  border-bottom: 1px solid #ff5353;
-}
-
-.foldForm a.active::after{
-  font-family: Arial, Helvetic, sans-serif;
-  content: '\f209';
-  color: #ff5353;
-  border: 1px solid #ff5353;
-}
-.foldForm .more{
-  opacity: 0;
-  padding: 0 16px;
-  max-height: 0;
-  border-bottom: 1px solid #e5e5e5;
-  overflow: hidden;
-  clear: both;
-  transition: all 0.2s ease 0.15s;
-  transition: all 0.2s ease 0.15s;
-  transition: all 0.2s ease 0.15s;
-}
