@@ -195,3 +195,27 @@ input[type=TeamLoc]:focus, input[type="TeamLoc"]:focus{
   outline: none;
 }
 
+.foldForm {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .foldForm:hover {
+  background-color: #ccc;
+}
+
+.checkbox {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
