@@ -6,6 +6,7 @@
 	<title>Accounts</title>
 	<link rel="stylesheet" type="text/css" href="accounts-style.css">
 	<script src="counterjava.js" type="text/javascript"></script>
+	
 </head>
 <body>
 	<header class="titlehead">
@@ -69,39 +70,34 @@
     				<label for="psw-repeat"><b>Repeat Password</b></label>
     				<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
-    				<label>
+    				<a><label>
       				<input type="checkbox" name="Donator" style="margin-bottom:15px"> Donator
-    				</label>
-
-    				<label>
-      				<input type="checkbox" name="SportsTeam" style="margin-bottom:15px"> Sports Team<br>
-    				</label>
-   				</div>
-   			<div class="foldForm">
-   				<div class="more">
+    				</label></a>
+    				<a><label>
+					<input type="checkbox" check="foldForm" name="SportsTeam" style="margin-bottom:15px" onclick=""> Sports Team<br>
+    				</label></a>
+    			<div class="more">
+    				<p>
     				<label for="Teamreg"><b>Team Name</b></label>
     				<input type="Team" placeholder="Enter Team" name="Team-Entry" required>
-    	
-    			</div>
-
-    			<div class="more">
-    				<label>
-      				<input type="checkbox" name="paypal" style="margin-bottom:15px"> PayPal
-    				</label>
-
-    				<label>
-      				<input type="checkbox" name="cashapp" style="margin-bottom:15px"> Cash App<br>
-    				</label>
+    				</p>
     			</div>
     		</div>
-
     		<div class="foldForm">
-    			<div class="more">
-    				<label for="servname"><b>User Name on Payment Serivce</b></label>
-    				<input type="userpay" placeholder="User Name" name="pay-user" required>
+    				<a><label>
+      				<input type="checkbox" name="paypal" style="margin-bottom:15px"> PayPal
+    				</label></a>
 
-    				<label for="Teamloc"><b>Team Location by State</b></label>
-    				<input type="TeamLoc" placeholder="Team Location" name="Team-Locate" required>
+    				<a><label>
+      				<input type="checkbox" name="cashapp" style="margin-bottom:15px"> Cash App<br>
+    				</label></a>
+
+    			<div class="more">
+    				<p><label for="servname"><b>User Name on Payment Serivce</b></label>
+    				<input type="userpay" placeholder="User Name" name="pay-user" required></p>
+
+    				<p><label for="Teamloc"><b>Team Location by State</b></label>
+    				<input type="TeamLoc" placeholder="Team Location" name="Team-Locate" required></p>
     			</div>
     		</div>
     	<button type="submit" class="signupbtn" onClick="onClick()">Sign Up</button>
@@ -112,9 +108,24 @@
 		
 		<label for="countertitle"><b>How Many Members Strong</b></label>
 		<p>Registerd Users: <a id="clicks">0</a></p>
-
 	</div>
-
+</b>
+</p>
+</div>
+</div>
+</div>
+	<div class="footer">
+    <p>Follow us at: <br> 
+    <img src="https://logo-sign.com/wp-content/uploads/2013/01/facebook-logo.png" alt="Facebook-logo" width="25" height="25">
+    <a class="link" href="https://www.facebook.com" style="color: black;"> Facebook </a>      
+    <img src="https://aniportalimages.s3.amazonaws.com/media/details/BbazLO9L_400x400_DZJhymP_aTgjZgQ.jpg" alt="Twitter-logo" width="25" height="25">     
+    <a class= "link" href="https://twitter.com/" style="color: black;">Twitter </a>
+    <img src="https://www.verbalbeginnings.com/wp-content/uploads/2019/11/new-instagram-logo-png-transparent.png" alt="Ig-logo" width="25" height="25">
+    <a class="link" href="https://www.instagram.com/" style="color: black;">Instagram</a>
+    </p>
+</div>
+<script src="folding.js" type="text/javascript"></script>
+<script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
 </div>
 </body>
 </html>

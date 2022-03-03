@@ -195,27 +195,79 @@ input[type=TeamLoc]:focus, input[type="TeamLoc"]:focus{
   outline: none;
 }
 
-.foldForm {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
+.foldForm{
+  border: 1px solid black;
+  padding: 3px;
+  background-color: whitesmoke;
+
+  position: relative;
+  display: box;
+  display: flex;
+  display: flexbox;
+  display: flex;
+
+  box-orient: vertical;
+  box-direction: normal;
+  flex-direction: column;
+  flex-direction: column;
+  flex-direction: column;
+
   width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
+  padding: 16px 48px 16px 16px;
+  font-size: 18px;
+  font-weight: 400;
+  border-bottom: 1px solid #e5e5e5;
+  background: whitesmoke;
 }
-
-.active, .foldForm:hover {
-  background-color: #ccc;
+.foldForm a:hover,
+.foldForm a:hover::after {
+  cursor: pointer;
+  color: #ff5353;
 }
-
-.checkbox {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
+.foldForm a:hover::after {
+  border: 1px solid #ff5353;
+}
+.foldForm a.active {
+  color: #ff5353;
+  border-bottom: 1px solid #ff5353;
+}
+.foldForm a {
+  font-family: Arial, Helvetic, sans-serif;
+  
+}
+.foldForm a.active::after {
+  font-family: Arial, Helvetic, sans-serif;
+  content: '\f209';
+  color: #ff5353;
+  border: 1px solid #ff5353;
+}
+.foldForm .more {
+  opacity: 0;
+  padding: 0 16px;
   max-height: 0;
+  border-bottom: 1px solid #e5e5e5;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  clear: both;
+  transition: all 0.2s ease 0.15s;
+  transition: all 0.2s ease 0.15s;
+  transition: all 0.2s ease 0.15s;
+}
+.foldForm .more p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.foldForm .more.active {
+  opacity: 1;
+  padding: 16px;
+  max-height: 100%;
+  transition: all 0.35s ease 0.15s;
+  transition: all 0.35s ease 0.15s;
+  transition: all 0.35s ease 0.15s;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  color: black;
 }
