@@ -1,11 +1,18 @@
 
+html{
+  box-sizing: border-box;
+  border: thin;
+  border-style: solid;
+}
+
+
 body {
   font-size: 17px;
   text-align: center;
   align-items: center;
   font-family: Arial;
-  background: linear-gradient(to bottom, #0099cc 0%, #66ffff 100%); 
-
+  background: linear-gradient(to bottom, #0099cc 0%, #66ffff 100%);
+  font-family: 'Lato', sans-serif; 
 }
 
 .advocacy {
@@ -52,7 +59,7 @@ figcaption {
 }
 
 .donation:hover .donationbtn {
-  background-color: whitesmoke;
+  background-color: #33ccff;
 }
 
 .donationbtn {
@@ -60,27 +67,6 @@ figcaption {
   font-size: 20px;
   border-radius: 12px;
 }
-
-/*.donation {
-  position: center;
-  display: inline-block;
-
-}
-.donation-text {
-  display: none;
-  position: absolute;
-  padding: 10px;
-  line-height: 15px;
-  margin-top: -10px;
-  background-color: whitesmoke;
-}
-
-select.name {
-  background: #04AA6D;
-  color: black;
-  padding 0 10p;
-  font-size: 17px;
-}*/
 
 .table {
   margin: 2% 0% 3% 0%;
@@ -96,7 +82,7 @@ select.name {
 }
 
 .donatebtn:hover .button {
-  background-color: whitesmoke;
+  background-color: #33ccff;
 }
 
 .button {
@@ -107,65 +93,6 @@ select.name {
   color: black;
 }
 
-.dropbtn {
-  background:  #A1CAF1;
-  padding: 20px;
-  font-size: 16px;
-  border-radius: 12px;
-
-}
-.dropdown {
-  position: center;
-  display: inline-block;
-  margin-top: 10px;
-  margin-left: 1000px;
-
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #A1CAF1;
-  min-width: 160px;
-  margin-right:20px;
-}
-
-
-.dropdown:hover .dropdown-content 
-{
-  display: block;
-}
-
-.dropdown:hover .dropbtn 
-{
-  background-color: #A1CAF1;
-}
-
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-.fa:hover {
-    opacity: 0.7;
-}
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 10%;
-  text-align: center;
-  text-decoration: none;
-  margin: 10px 10px;
-  border-radius: 50%;
-}
 .navbar {
   background-color: skyblue;
   overflow: hidden;
@@ -186,4 +113,79 @@ select.name {
 .navbar a.active {
   background-color: #33ccff;
   color: white;
+}
+
+.social {
+  position: fixed;
+  right: -85px;
+  top: 419px;
+  width: 190px;
+}
+
+.social a {
+  display: block;
+  padding: 16px;
+  height: 23px; 
+  color: #efefef;
+  font-size: 20px;
+  text-align: center;
+}
+ 
+.fa-instagram {
+  background: linear-gradient(45DEG, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+  padding: 17px 18px 17px 18px;
+  margin-right: 17px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  padding: 17px 19px 17px 21px;
+  margin-right: 18px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+ padding: 17px 18px 17px 17px;
+  margin-right: 17px;
+}
+
+.fa {
+color:#fff;
+}
+
+.icons-container{
+  top:318px;
+  width:270px;
+  margin:0px;
+  padding:0px;
+  right:-185px;
+  position:fixed;
+}
+
+.icons li{
+  color:black;
+  height:49px;
+  padding:0px;
+  text-align: left;
+  list-style-type:none;
+  margin:0px 0px 1px 0px;
+  background-color:#1F75FE; 
+}
+
+.icons li:hover{
+  margin-left:-190px;
+}
+
+.icons li img{
+  float:left;
+  margin: 5px 4px;
+  margin-right:5px;
+}
+
+.icons li p{
+  margin:0px;
+  padding-top:5px;
+  font-size:15px;
+  line-height:16px;
+
 }

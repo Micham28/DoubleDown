@@ -48,7 +48,6 @@ label {
 .fa {
 	float: center;
 	padding: 20px;
-  border-radius: 10px;
   color: #253B80;
 }
 a{
@@ -63,9 +62,6 @@ a{
   border-radius: 12px;
 }
 
-}
-
-/*--trial--*/
 .donation-text {
 	font-size: 17px;
 }
@@ -93,4 +89,11 @@ select.name {
 .navbar a.active {
   background-color: #33ccff;
   color: white;
+}
+
+.social {
+  position: fixed;
+  right: -85px;
+  top: 419px;
+  width: 190px;
 }
